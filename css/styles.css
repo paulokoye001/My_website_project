@@ -27,12 +27,6 @@ header {
     padding: 1rem 0;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
-
-    /* Added background image */
-    background-image: url("assets/images/paul_presenting_BG.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 nav {
@@ -131,15 +125,6 @@ nav {
     position: relative;
     overflow: hidden;
 }
-
-/* Home Section Background */
-#home {
-    background: 
-        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
-        url("assets/images/paul presenting BG.jpg") no-repeat center center/cover;
-    color: #fff; /* optional: makes text visible over the image */
-}
-
 
 .hero::before {
     content: '';
@@ -1191,6 +1176,3 @@ footer {
 .error {
     background: #dc3545 !important;
 }
-
-
-
